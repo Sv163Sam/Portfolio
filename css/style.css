@@ -19,7 +19,7 @@ header {
     color: black;
 
     height: auto;
-    min-height: 350px;
+    min-height: 250px;
     max-height: 500px;
 
     background-image: url('../imgs/up_logo.png');
