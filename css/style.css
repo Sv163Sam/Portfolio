@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: MyFont, sans-serif;
-    height: 80vh;
+    height: 100vh;
     overflow: scroll;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    position: relative;
+    position: absolute;
 
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@ header {
     text-align: right;
     color: black;
 
-    height: 50vh;
+    height: 20vh;
     min-height: 280px;
     max-height: 500px;
 
@@ -38,19 +38,17 @@ header h1 {
 main {
     position: relative;
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 45vh;
 }
 
 main h1 {
     text-align: left;
     margin-bottom: 1px;
     margin-left: 5px;
-    margin-top: 40px;
 }
 
 #skills_h {
     color: rgb(83, 30, 78);
-    margin-top: 50px;
 }
 
 .skills-container {
