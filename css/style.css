@@ -18,9 +18,7 @@ header {
     text-align: right;
     color: black;
 
-    height: 20vh;
-    min-height: 280px;
-    max-height: 500px;
+    height: 300px;
 
     background-image: url('../imgs/up_logo.png');
     background-size: 100vw;
@@ -31,14 +29,14 @@ header {
 }
 
 header h1 {
-    margin-top: 5vh;
+    margin-top: 75px;
     position: relative;
 }
 
 main {
     position: relative;
     z-index: 1;
-    margin-top: 450px;
+    margin-top: 370px;
 }
 
 main h1 {
@@ -178,18 +176,9 @@ footer {
   src: url('../fonts/fa-v4compatibility.ttf') format('truetype');
 }
 
-@media (min-width: 1201px) {
-    header {
-        padding: 20vh 1px;
-        font-size: 1em;
-    }
-}
+
 
 @media (max-width: 1200px) {
-    header {
-        padding: 20vh 1px;
-        font-size: 1em;
-    }
     .skills-container {
         border-top: 8px solid rgb(83, 30, 78);
         border-bottom: 8px solid rgb(83, 30, 78);
