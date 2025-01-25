@@ -25,7 +25,7 @@ header {
     background-position: top left;
     background-repeat: no-repeat;
     opacity: 1;
-    z-index: 0;
+    z-index: 2;
 }
 
 header h1 {
@@ -270,6 +270,9 @@ footer {
     .skills-item {
         width: 90vw;
         height: 20vh;
+    }
+    .skills-item img {
+        height: 7vh;
     }
     .project-details ul {
         font-size: 0.2em;
