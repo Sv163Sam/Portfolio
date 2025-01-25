@@ -29,14 +29,14 @@ header {
 }
 
 header h1 {
-    margin-top: 75px;
+    margin-top: 100px;
     position: relative;
 }
 
 main {
     position: relative;
     z-index: 1;
-    margin-top: 370px;
+    margin-top: 400px;
 }
 
 main h1 {
@@ -201,7 +201,6 @@ footer {
 
 @media (max-width: 992px) {
     header {
-        padding: 20vh 1px;
         font-size: 0.7em;
     }
     .skills-container {
@@ -224,7 +223,6 @@ footer {
 
 @media (max-width: 768px) {
     header {
-        padding: 20vh 1px;
         font-size: 0.5em;
     }
     main {
@@ -252,7 +250,6 @@ footer {
 
 @media (max-width: 480px) {
     header {
-        padding: 14vh 1px;
         font-size: 0.3em;
     }
     main {
